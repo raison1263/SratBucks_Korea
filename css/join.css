@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+#content 
+{
+    width: 100%;
+    background: #fff;
+}
+
+#content .join_box 
+{
+    padding: 150px 0;
+    width: 570px;
+    margin: 0 auto;
+}
+
+#content .join_box h1 
+{
+    text-align: center;
+    font-weight: normal;
+    padding: 30px 0;
+    letter-spacing: -3px;
+    font-size: 30px;
+}
+
+#content .join_box .join_box_1
+{
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+#content .join_box .img_box
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* 첫번째 부분 */
+#content .join_box .join_box_1 .img_box .img
+{
+    background-image: url(../img/icon_find_sally.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 245px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+#content .join_box .join_box_1 .img_box .text
+{
+    font-size: 18px;
+    color: #777;
+    padding: 20px;
+}
+
+#content .join_box .join_box_1 .id_pw
+{
+    text-align: center;
+}
+
+#content .join_box .join_box_1 .id_pw li
+{
+   border-top: 1px solid #ccc;
+   padding: 20px 0;
+}
+
+#content .join_box .join_box_1 .id_pw input
+{
+    width: 530px;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding-left: 1em;
+    border-radius: 5px;
+}
+
+#content .join_box .join_box_1 .id_pw p
+{
+    font-size: 14px;
+    color:  #ED1C24;
+    text-align: left;
+    padding: 10px 0  0 20px;
+    display: none;
+}
+
+/* 두번째 부분 */
+#content .join_box .join_box_2
+{
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin: 40px 0;
+}
+
+#content .join_box .join_box_2 ul li
+{
+    padding: 20px;
+}
+
+#content .join_box .join_box_2 ul li + li
+{
+    border-top: 1px solid #ccc;
+}
+
+#content .join_box .join_box_2 ul li h3
+{
+    padding-bottom: 10px;
+}
+
+#content .join_box .join_box_2 ul li h3 span
+{
+    color: #006241;
+}
+
+#content .join_box .join_box_2 input,
+#content .join_box .join_box_2 select
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 1em;
+}
+
+/* 이름 */
+#content .join_box .join_box_2 .name_box
+{
+    position: relative;
+}
+
+#content .join_box .join_box_2 .name_box #name
+{
+    width: 260px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .name_box p
+{
+    font-size: 14px;
+    color:  #ED1C24;
+    text-align: left;
+    padding-top: 10px;
+    display: none;
+}
+
+#content .join_box .join_box_2 .name_box .radio
+{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+
+/* 생일 */
+#content .join_box .join_box_2 .birth_day_box #year
+{
+    width: 165px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .birth_day_box #month
+{
+    width: 127px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .birth_day_box #day
+{
+    width: 127px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .birth_day_box #calendar
+{
+    width: 80px;
+    height: 50px;
+}
+
+/* 휴대폰 */
+#content .join_box .join_box_2 .phone_box #hp
+{
+    width: 80px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .phone_box #hp1
+{
+    width: 80px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .phone_box #hp2
+{
+    width: 80px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .phone_box p
+{
+    font-size: 14px;
+    color:  #ED1C24;
+    text-align: left;
+    padding-top: 10px;
+    display: none;
+}
+
+/* 이메일 */
+#content .join_box .join_box_2 .phone_box #email
+{
+    width: 170px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .email_box #email_domain
+{
+    width: 150px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .email_box #email
+{
+    width: 170px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .email_box #domain_list
+{
+    width: 170px;
+    height: 50px;
+}
+
+#content .join_box .join_box_2 .email_box p
+{
+    font-size: 14px;
+    color:  #ED1C24;
+    text-align: left;
+    padding-top: 10px;
+    display: none;
+}
+
+
+/* 세번쨰 부분 */
+#content .join_box .join_box_3
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 40px 0;
+    letter-spacing: -3px;
+}
+
+#content .join_box .join_box_3 .img
+{
+    background-image: url(../img/icon_nick_sally.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 568px;
+    height: 273px;
+}
+
+#content .join_box .join_box_3 .img_text
+{
+    color: #666;
+    text-align: center;
+    background: #edebe7;
+    padding: 10px;
+}
+
+#content .join_box .join_box_3 ul li > h3
+{
+    padding: 20px 15px;
+}
+
+#content .join_box .join_box_3 .terms
+{
+    padding: 0 30px;
+}
+
+#content .join_box .join_box_3 .terms h3
+{
+    padding: 0 220px 15px 0;
+    display: inline-block;
+}
+
+#content .join_box .join_box_3 .terms #terms_ok
+{
+   transform: scale(1.5);
+}
+
+#content .join_box .join_box_3 .terms .agree
+{
+    height: 170px;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+#content .join_box .join_box_3 .terms .guide
+{
+    width: 95%;
+    height: 130px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    margin: 0 auto;
+}
+
+#content .join_box .join_box_3 .nickname_box 
+{
+    padding: 50px 0 20px 20px;
+}
+
+#content .join_box .join_box_3 .nickname_box #nickname
+{
+    width: 530px;
+    height: 50px;
+    background: #f7f7f7;
+    padding-left: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#content .join_box .join_end
+{
+    text-align: center;
+}
+
+#content .join_box .join_end strong
+{
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -3px;
+    padding-bottom: 15px;
+}
+
+#content .join_box .join_end .join_button
+{
+  padding-top: 20px;
+}
+
+
+#content .join_box .join_end .join_button button
+{
+   width: 45%;
+   height: 65px;
+   background: #006241;
+   color: #fff;
+   font-size: 24px;
+   border: none;
+}
+
+#content .join_box .join_end .join_button button:nth-child(2)
+{
+   background: red;
+}
+
+#content .join_box .join_box_3 .nickname_box p
+{
+    font-size: 14px;
+    color:  #ED1C24;
+    text-align: left;
+    padding-top: 10px;
+    display: none;
+}
+

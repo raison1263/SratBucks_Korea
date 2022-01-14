@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+#content
+{
+    width: 100%;
+}
+
+#content .bg_img
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+#content .login > h1
+{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#content .login
+{
+    width: 570px;
+    margin: 0 auto;
+}
+
+#content .login .login_box_outer
+{
+    background:  #fff;
+    border-radius: 5px;
+}
+
+#content .login .login_box_title
+{
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#content .login .login_box_title > h3
+{
+    text-align: center;
+    font-weight: normal;
+}
+
+#content .login .login_box_outer .login_box_inner .login_box
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#content .login .login_box_outer .login_box_inner .login_box input
+{
+    width: 530px;
+    height: 50px;
+    padding-left: 1em;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#content .login .login_box_outer .login_box_inner .id_save_box
+{
+    padding: 0 25px;
+}
+
+#content .login .login_box_outer .login_box_inner .id_save_box input.on,
+#content .login .login_box_outer .login_box_inner .id_save_box label.on
+{
+    cursor: pointer;
+}
+
+#content .login .login_box_outer .login_box_inner .id_save_box input
+{
+    transform: scale(1.5);
+}
+
+#content .login .login_box_outer .login_box_inner .login_button
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#content .login .login_box_outer .login_box_inner .login_button button
+{
+    width: 530px;
+    height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    background: #006633;
+}
+
+#content .login .login_box_outer .login_box_inner .login_button button.on
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#content .login .login_box_outer .login_box_inner .login_box_text
+{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #006633;
+}
+
+#content .login .login_box_outer .login_box_inner .login_box_text
+{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #006633;
+}
+
+#content .login .login_box_outer .login_box_inner .last
+{
+   text-align: center;
+}
+
+#content .login .login_box_outer .login_box_inner .last ul li
+{
+    float: left;
+    width: 33.3333%;
+    position: relative;
+    z-index: 5;
+}
+
+#content .login .login_box_outer .login_box_inner .last ul li a
+{
+    display: block;
+    color: #666;
+    position: relative;
+    z-index: 5;
+    padding: 20px 0;
+}
+
+#content .login .login_box_outer .login_box_inner .last ul li.on a
+{
+    text-decoration: underline;
+}
+
+#content .login .login_box_outer .login_box_inner .last ul li .interval
+{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+#content .login .login_box_outer .login_box_inner .last ul li + li .interval
+{
+    border-left: 1px solid #ccc;
+}
+
+
